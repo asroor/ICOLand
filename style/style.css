@@ -387,6 +387,7 @@ body {
 }
 #statistics .statistics-wrap .statistics-title {
   text-align: center;
+  margin-bottom: 40px;
 }
 #statistics .statistics-wrap .statistics-title h4 {
   font-style: normal;
@@ -402,4 +403,219 @@ body {
   font-size: 17px;
   line-height: 21px;
   color: #FFFFFF;
+}
+#statistics .statistics-wrap .statistics-tab .nav {
+  max-width: 416px;
+  background: #1E1C46;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+#statistics .statistics-wrap .statistics-tab .nav .nav-item {
+  background: local;
+}
+#statistics .statistics-wrap .statistics-tab .nav .nav-item .nav-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #454366;
+}
+#statistics .statistics-wrap .statistics-tab .nav .nav-item .nav-link:hover {
+  background: local;
+}
+#statistics .statistics-wrap .statistics-tab .nav .nav-item .nav-link.active {
+  background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%) !important;
+  border-radius: 100px;
+  border-color: transparent;
+  color: #fff;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content {
+  margin-top: 68px;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .tab-pane {
+  color: #fff;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series {
+  margin-bottom: 35px;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line {
+  background: #37355A;
+  border-radius: 50px;
+  width: 449px;
+  height: 12px;
+  overflow: hidden;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line span {
+  display: block;
+  width: 114px;
+  height: 12px;
+  background: #3D88FB;
+  border-radius: 10px;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line .line-bg-2 {
+  background: #5637C8;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line .line-bg-3 {
+  width: 44px;
+  background: #00D199;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line .line-bg-4 {
+  width: 44px;
+  background: #C87B07;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line .line-bg-5 {
+  width: 45px;
+  background: #A62435;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left .statistics-series .line .line-bg-3 {
+  width: 90px;
+  background: #9116CD;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-content .statistics-left > div:last-child {
+  margin: 0;
+}
+#statistics .statistics-wrap .statistics-tab .tab-content .statistics-rank {
+  max-width: 242px;
+}
+
+#details {
+  padding: 71px 0 90px 0;
+}
+#details .details-title {
+  text-align: center;
+}
+#details .details-title h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#details .details-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#details .details-wrap {
+  margin-top: 70px;
+}
+#details .details-wrap .details-card {
+  width: 490px;
+  background: #110E3B;
+  border: 1px solid #3F3C61;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 8px;
+  padding: 20px;
+}
+#details .details-wrap .details-card .details-card-series {
+  border-radius: 12px;
+  background-color: rgb(41, 39, 79);
+  padding: 15px 20px;
+  margin-bottom: 23px;
+}
+#details .details-wrap .details-card .details-card-series h6 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+#details .details-wrap .details-card .details-card-series p {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+#details .details-wrap .details-card .details-card-series:hover {
+  background: linear-gradient(272.09deg, #88295D 0%, #294B8B 100%);
+}
+#details .details-wrap .details-card > div:last-child {
+  margin: 0;
+}
+
+#team {
+  background-color: #100A3D;
+  padding: 78px 0;
+}
+#team .team-title h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#team .team-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#team .team-wrap {
+  margin-top: 50px;
+}
+#team .team-wrap .team-card {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#team .team-wrap .team-card .user-img {
+  width: 329px;
+}
+#team .team-wrap .team-card .user-img img {
+  width: 100%;
+}
+#team .team-wrap .team-card .team-user {
+  width: 267px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-width: 0px 1.5px 1.5px 0px;
+  border-style: solid;
+  border-color: #8374A0;
+  -webkit-backdrop-filter: blur(3.5px);
+          backdrop-filter: blur(3.5px);
+  border-radius: 9px;
+  padding: 19px 0;
+}
+#team .team-wrap .team-card .team-user h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #FFFFFF;
+}
+#team .team-wrap .team-card .team-user p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

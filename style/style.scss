@@ -488,10 +488,12 @@
 
   //   statistics series start
   #statistics {
-    padding: 80px 0;
+      padding: 80px 0;
+
       .statistics-wrap {
           .statistics-title {
               text-align: center;
+              margin-bottom: 40px;
 
               h4 {
                   font-style: normal;
@@ -510,7 +512,269 @@
                   color: #FFFFFF;
               }
           }
+
+          .statistics-tab {
+              .nav {
+                  max-width: 416px;
+                  background: #1E1C46;
+                  border-radius: 100px;
+                  margin: 0 auto;
+
+                  .nav-item {
+                      background: local;
+
+                      .nav-link {
+                          font-style: normal;
+                          font-weight: 700;
+                          font-size: 16px;
+                          line-height: 30px;
+                          letter-spacing: 0.01em;
+                          color: #454366;
+                      }
+
+                      .nav-link:hover {
+                          background: local;
+                      }
+
+                      .nav-link.active {
+                          background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%) !important;
+                          border-radius: 100px;
+                          border-color: transparent;
+                          color: #fff;
+                      }
+                  }
+              }
+
+              .tab-content {
+                  margin-top: 68px;
+
+                  .tab-pane {
+                      color: #fff;
+                  }
+
+                  .statistics-content {
+                      .statistics-left {
+                          .statistics-series {
+                              margin-bottom: 35px;
+
+                              label {
+                                  font-style: normal;
+                                  font-weight: 500;
+                                  font-size: 16px;
+                                  line-height: 30px;
+                                  letter-spacing: 0.03em;
+                                  color: #FFFFFF;
+                                  margin-bottom: 10px;
+                              }
+
+                              .line {
+                                  background: #37355A;
+                                  border-radius: 50px;
+                                  width: 449px;
+                                  height: 12px;
+                                  overflow: hidden;
+
+                                  span {
+                                      display: block;
+                                      width: 114px;
+                                      height: 12px;
+                                      background: #3D88FB;
+                                      border-radius: 10px;
+                                  }
+
+                                  .line-bg-2 {
+                                      background: #5637C8;
+                                  }
+
+                                  .line-bg-3 {
+                                      width: 44px;
+                                      background: #00D199;
+                                  }
+
+                                  .line-bg-4 {
+                                      width: 44px;
+                                      background: #C87B07;
+                                  }
+
+                                  .line-bg-5 {
+                                      width: 45px;
+                                      background: #A62435;
+                                  }
+
+                                  .line-bg-3 {
+                                      width: 90px;
+                                      background: #9116CD;
+                                  }
+                              }
+                          }
+                      }
+
+                      .statistics-left>div:last-child {
+                          margin: 0;
+                      }
+                  }
+
+                  .statistics-rank {
+                      max-width: 242px;
+                  }
+              }
+          }
       }
   }
 
   //   statistics series end
+
+  //   details series start
+  #details {
+      padding: 71px 0 90px 0;
+
+      .details-title {
+          text-align: center;
+
+          h4 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 35px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+          }
+
+          p {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 27px;
+              text-align: center;
+              color: #FFFFFF;
+          }
+      }
+
+      .details-wrap {
+          margin-top: 70px;
+
+          .details-card {
+              width: 490px;
+              background: #110E3B;
+              border: 1px solid #3F3C61;
+              backdrop-filter: blur(12px);
+              border-radius: 8px;
+              padding: 20px;
+
+              .details-card-series {
+                  border-radius: 12px;
+                  background-color: rgba(41, 39, 79, 1);
+                  padding: 15px 20px;
+                  margin-bottom: 23px;
+
+                  h6 {
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 22px;
+                      line-height: 40px;
+                      letter-spacing: 0.01em;
+                      color: #FFFFFF;
+                      padding: 0;
+                      margin: 0;
+                  }
+
+                  p {
+                      padding: 0;
+                      margin: 0;
+                      font-style: normal;
+                      font-weight: 600;
+                      font-size: 16px;
+                      line-height: 20px;
+                      letter-spacing: 0.02em;
+                      color: #FFFFFF;
+                  }
+
+                  &:hover {
+                      background: linear-gradient(272.09deg, #88295D 0%, #294B8B 100%);
+                  }
+              }
+          }
+
+          .details-card>div:last-child {
+              margin: 0;
+          }
+      }
+  }
+
+  //   details series end
+
+  //   team series start
+  #team {
+    background-color: #100A3D;
+    padding: 78px 0;
+      .team-title {
+          h4 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 35px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+          }
+
+          p {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 27px;
+              text-align: center;
+              color: #FFFFFF;
+          }
+      }
+
+      .team-wrap {
+        margin-top: 50px;
+          .team-card {
+              width: 100%;
+              position: relative;
+              overflow: hidden;
+
+              .user-img {
+                  width: 329px;
+
+                  img {
+                      width: 100%;
+                  }
+              }
+
+              .team-user {
+                  width: 267px;
+                  position: absolute;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  bottom: 20px;
+                  background: rgba(255, 255, 255, 0.2);
+                  border-width: 0px 1.5px 1.5px 0px;
+                  border-style: solid;
+                  border-color: #8374A0;
+                  backdrop-filter: blur(3.5px);
+                  border-radius: 9px;
+                  padding: 19px 0;
+                  h6 {
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 22px;
+                      line-height: 27px;
+                      color: #FFFFFF;
+                  }
+
+                  p {
+                      font-style: normal;
+                      font-weight: 400;
+                      font-size: 12px;
+                      line-height: 15px;
+                      color: #FFFFFF;
+                      margin: 0;
+                  }
+              }
+          }
+
+      }
+  }
+
+  //   team series end
