@@ -705,8 +705,9 @@
 
   //   team series start
   #team {
-    background-color: #100A3D;
-    padding: 78px 0;
+      background-color: #100A3D;
+      padding: 78px 0;
+
       .team-title {
           h4 {
               font-style: normal;
@@ -728,7 +729,8 @@
       }
 
       .team-wrap {
-        margin-top: 50px;
+          margin-top: 50px;
+
           .team-card {
               width: 100%;
               position: relative;
@@ -755,6 +757,7 @@
                   backdrop-filter: blur(3.5px);
                   border-radius: 9px;
                   padding: 19px 0;
+
                   h6 {
                       font-style: normal;
                       font-weight: 700;
@@ -778,3 +781,103 @@
   }
 
   //   team series end
+
+  //   question series start
+  #question {
+      padding: 70px 0;
+
+      .question-title {
+          h4 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 35px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+          }
+
+          p {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 27px;
+              text-align: center;
+              color: #FFFFFF;
+          }
+      }
+
+      .question-wrap {
+          .nav {
+              max-width: 620px;
+              margin: 0 auto;
+
+              .nav-item {
+                  margin-left: 20px;
+              }
+
+              border-bottom: 2px solid #16143F;
+          }
+
+          .nav>li:first-child {
+              margin: 0;
+          }
+
+          .nav-tabs .nav-item.show .nav-link,
+          .nav-tabs .nav-link.active {
+              background: local;
+              color: #FffF;
+              border-bottom: 2px solid #772156;
+          }
+
+          .nav-tabs .nav-link {
+              padding: 0 5px;
+              font-style: normal;
+              font-weight: 600;
+              font-size: 23px;
+              line-height: 40px;
+              letter-spacing: -0.02em;
+              color: #363459;
+
+              &:hover {
+                  background: local;
+              }
+          }
+      }
+
+      .tab-content {
+          .accordion {
+              max-width: 924px;
+              margin: 0 auto;
+
+              .accordion-item {
+                  overflow: hidden;
+                  border: 1px solid #3F3C61;
+                  margin-bottom: 20px;
+                  border-radius: 8px;
+
+                  .accordion-body {
+                      padding-top: 0;
+                      background: #110E3B;
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 15px;
+                      line-height: 27px;
+                      color: #FFFFFF;
+                  }
+              }
+          }
+
+          .accordion-item .accordion-button {
+              background: #110E3B;
+              backdrop-filter: blur(12px);
+              font-style: normal;
+              font-weight: 600;
+              font-size: 23px;
+              line-height: 28px;
+              letter-spacing: -0.02em;
+              color: #FFFFFF;
+          }
+      }
+  }
+
+  //   question series end
