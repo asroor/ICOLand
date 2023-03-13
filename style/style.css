@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.main .main-container {
+  max-width: 1410px;
+  margin: 0 auto;
+}
+
+.home-main {
+  background: url(../img/Home-bg.png) no-repeat;
+  background-size: cover;
+}
+
+body {
+  background-color: #050231;
+  font-family: "Inter", sans-serif;
+}
+
+#header {
+  border-bottom: 2px solid rgba(38, 25, 85, 0.5);
+  padding: 10px 0;
+}
+#header .header-wrap .header-logo a {
+  width: 177px;
+}
+#header .header-wrap .header-logo a img {
+  width: 100%;
+}
+#header .header-nav {
+  margin-right: 80px;
+}
+#header .header-nav .nav-link {
+  margin: 0;
+  padding: 0;
+}
+#header .header-nav .nav-link .btn-group {
+  box-shadow: none;
+  list-style: none;
+  margin-right: 20px;
+  background: local;
+  cursor: pointer;
+}
+#header .header-nav .nav-link .btn-group p {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+#header .header-btn {
+  background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+  border-radius: 100px;
+  border: 1px solid transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  padding: 9px 40px;
+}
+
+#home .home-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#home .home-wrap .home-left .home-save {
+  background: #2F1D52;
+  border-radius: 100px;
+  max-width: 376px;
+  padding: 1px;
+}
+#home .home-wrap .home-left .home-save span {
+  background: #FFFFFF;
+  border-radius: 100px;
+  padding: 8px 21px 6px 21px;
+  margin-right: 25px;
+}
+#home .home-wrap .home-left .home-save p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0;
+  margin: 0;
+}
+#home .home-wrap .home-left .home-text {
+  margin-top: 27px;
+}
+#home .home-wrap .home-left .home-text h1 {
+  max-width: 590px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43.3333px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#home .home-wrap .home-left .home-text p {
+  max-width: 366px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 38px;
+}
+#home .home-wrap .home-left .home-text button {
+  padding: 17px 17px 17px 27px;
+  background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+  border-radius: 100px;
+  border: 1px solid transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-left .home-text button img {
+  margin-left: 16px;
+}
+#home .home-wrap .home-right {
+  margin: 88px 0px 105px 0px;
+  width: 565px;
+  background: rgba(75, 52, 111, 0.45);
+  border: 3px solid #64527F;
+  -webkit-backdrop-filter: blur(12px);
+          backdrop-filter: blur(12px);
+  border-radius: 8px;
+}
+#home .home-wrap .home-right .home-time {
+  padding: 37px 41px 0px 41px;
+}
+#home .home-wrap .home-right .home-time .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time .time .time-series {
+  margin-left: 42px;
+}
+#home .home-wrap .home-right .home-time .time .time-series span {
+  width: 70px;
+  height: 70px;
+  background: #4A396F;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time .time .time-series h6 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 55px;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time .time > div:first-child {
+  margin: 0;
+}
+#home .home-wrap .home-right .home-time .growth .growth-top h6 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time .growth .growth-top h6 span {
+  color: #FE4581;
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line {
+  background: #544878;
+  border-radius: 100px;
+  padding: 2px;
+  position: relative;
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line button {
+  background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
+  border-radius: 100px;
+  border: transparent;
+  position: relative;
+  Width: 183px;
+  Height: 34px;
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line button span {
+  top: 50%;
+  transform: translateY(-50%);
+  right: 15px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line .line-detal {
+  max-width: 487px;
+  position: absolute;
+  justify-content: space-around;
+  top: 17px;
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line .line-detal span {
+  width: 48px;
+  height: 0px;
+  border: 1px solid #FFFFFF;
+  transform: rotate(90deg);
+}
+#home .home-wrap .home-right .home-time .growth .counter-time-line .line-detal p {
+  margin: 0;
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#home .home-wrap .home-right .home-time-bottom {
+  padding: 15px 0;
+  margin-top: 50px;
+  background: rgba(101, 83, 135, 0.3);
+}
+#home .home-wrap .home-right .home-time-bottom .currency {
+  max-width: 332px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#home .home-wrap .home-right .home-time-bottom .currency i {
+  font-size: 32px;
+  color: #fff;
+}
+
+#nft .nft-wrap {
+  max-width: 1508px;
+  margin: 0 auto;
+  position: relative;
+  padding: 75px 0;
+}
+#nft .nft-wrap .nft-img {
+  width: 1258px;
+}
+#nft .nft-wrap .nft-img img {
+  width: 100%;
+}
+#nft .nft-wrap .nft-text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 100px;
+}
+#nft .nft-wrap .nft-text .nft-title h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#nft .nft-wrap .nft-text .nft-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin: 0;
+}
+#nft .nft-wrap .nft-text .nft-about {
+  margin-top: 23px;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-left {
+  height: 250px;
+  margin-right: 41px;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-left img {
+  width: 100%;
+  height: 100%;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-right .nft-about-series {
+  margin-bottom: 42px;
+  position: relative;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-right .nft-about-series .nft-about-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(298.91deg, #FF4581 -3.22%, #4182D5 75.96%);
+  border-radius: 100px;
+  position: absolute;
+  left: -65px;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-right .nft-about-series h5 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-right .nft-about-series p {
+  max-width: 393px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+}
+#nft .nft-wrap .nft-text .nft-about .nft-about-right > div:last-child {
+  margin: 0;
+}
+
+#token {
+  background: url(../img/token-bg.png) no-repeat;
+  background-size: cover, cover;
+  padding: 75px 0;
+}
+#token .token-wrap .title {
+  text-align: center;
+}
+#token .token-wrap .title h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#token .token-wrap .title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+#token .token-wrap .token-about {
+  margin-top: 48px;
+}
+#token .token-wrap .token-about .token-series .token-text h6 {
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+#token .token-wrap .token-about .token-series .token-text p {
+  max-width: 310px;
+  margin: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+#statistics {
+  padding: 80px 0;
+}
+#statistics .statistics-wrap .statistics-title {
+  text-align: center;
+}
+#statistics .statistics-wrap .statistics-title h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 55px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}
+#statistics .statistics-wrap .statistics-title p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
