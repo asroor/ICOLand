@@ -881,3 +881,132 @@
   }
 
   //   question series end
+
+  //   documents start
+  #documents {
+      padding: 76px 0;
+      background: url(../img/documents-bg.png)no-repeat, #100A3D;
+      background-size: cover, cover;
+
+      .documents-title {
+          h4 {
+              font-style: normal;
+              font-weight: 600;
+              font-size: 35px;
+              line-height: 55px;
+              letter-spacing: 0.01em;
+              color: #FFFFFF;
+              text-align: center;
+          }
+
+          p {
+              max-width: 624px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 27px;
+              text-align: center;
+              color: #FFFFFF;
+              margin: 0 auto;
+          }
+      }
+
+      .documents-wrap {
+          margin-top: 42px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          // documents-card
+          .documents-card {
+              position: relative;
+              width: 305px;
+              height: 201px;
+              background: linear-gradient(180deg, #100A3D 20.31%, #1A0F6A 100%);
+              border-radius: 11px;
+
+              .card-paper {
+                  left: -25px;
+                  bottom: 21px;
+                  position: absolute;
+                  width: 142px;
+                  height: 180px;
+                  border-radius: 12px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background:url(../img/card-paper.png) no-repeat, linear-gradient(148.82deg, #0A419C 2.31%, #A43473 99.07%), ;
+                  background-size: cover, cover;
+
+                  h6 {
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 16px;
+                      line-height: 27px;
+                      text-align: center;
+                      color: #FFFFFF;
+                      max-width: 52px;
+                  }
+              }
+
+              .card-paper-2 {
+                  background: url(../img/card-paper.png) no-repeat, linear-gradient(148.82deg, #9C1975 2.31%, #5513A0 99.07%);
+              }
+
+              .card-paper-3 {
+                  background: url(../img/card-paper.png) no-repeat, linear-gradient(148.82deg, #B55156 2.31%, #48305F 99.07%);
+              }
+
+              .card-paper-4 {
+                  background: url(../img/card-paper.png) no-repeat, linear-gradient(148.82deg, #2C9BA3 2.31%, #2B105C 99.07%);
+              }
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              .card-about {
+                  width: fit-content;
+                  display: flex;
+                  align-items: start;
+                  justify-content: center;
+                  flex-direction: column;
+                  margin-left: 60px;
+
+                  h6 {
+                      font-style: normal;
+                      font-weight: 700;
+                      font-size: 16px;
+                      line-height: 27px;
+                      text-align: center;
+                      color: #FFFFFF;
+                  }
+
+                  button {
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      border: transparent;
+                      border-radius: 4px;
+                      background: rgba(47, 38, 110, 1);
+                      font-style: normal;
+                      font-weight: 500;
+                      font-size: 14px;
+                      line-height: 27px;
+                      text-align: center;
+                      color: #FFFFFF;
+                      flex: none;
+                      order: 1;
+                      flex-grow: 0;
+                      padding: 4px 12px;
+
+                      img {
+                          margin-right: 3px;
+                      }
+                  }
+              }
+          }
+      }
+  }
+
+  //   documents end
