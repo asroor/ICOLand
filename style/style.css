@@ -19,6 +19,7 @@
   background-size: cover;
 }
 
+html,
 body {
   background-color: #050231;
   font-family: "Inter", sans-serif;
@@ -807,4 +808,50 @@ body {
 }
 #documents .documents-wrap .documents-card .card-about button img {
   margin-right: 3px;
+}
+
+#contact {
+  padding: 83px 0;
+}
+#contact .contact-wrap {
+  display: flex;
+  align-items: center;
+}
+#contact .contact-wrap .contact-left h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+#contact .contact-wrap .contact-left p {
+  max-width: 411px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 11px;
+}
+#contact .contact-wrap .contact-left .contact-network {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+#contact .contact-wrap .contact-left .contact-network .network-icon {
+  width: 64px;
+  height: 64px;
+  border: 2px solid;
+  border-image-source: linear-gradient(165.04deg, #D84D8C 8.02%, #566FBC 89.46%);
+}
+#contact .contact-wrap .contact-left .contact-network a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
