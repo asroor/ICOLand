@@ -1144,6 +1144,10 @@
   //   contact series end
   //   update series start
   #update {
+      background: url(../img/update-bg.png);
+      padding: 71px 0;
+      padding-bottom: 0px;
+
       .update-title {
           font-style: normal;
           font-weight: 600;
@@ -1177,9 +1181,9 @@
                   font-weight: 500;
                   font-size: 14px;
                   line-height: 27px;
-                color: #fff;
-                padding: 0 15px;
-                }
+                  color: #fff;
+                  padding: 0 15px;
+              }
 
               button {
                   background: linear-gradient(272.09deg, #FF4581 0%, #4182D5 100%);
@@ -1195,6 +1199,64 @@
                   flex-grow: 0;
                   border: transparent;
                   padding: 8px 59px;
+              }
+          }
+
+          p {
+              max-width: 624px;
+              font-style: normal;
+              font-weight: 500;
+              font-size: 15px;
+              line-height: 27px;
+              text-align: center;
+              color: rgba(255, 255, 255, 0.6);
+              margin: 0 auto;
+              margin-top: 23px;
+          }
+
+          .update-network {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-top: 32px;
+
+              .icon {
+                  width: 40px;
+                  height: 40px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  background: #403668;
+                  border-radius: 9px;
+                  margin-left: 12px;
+
+                  i {
+                      font-size: 20px;
+                      color: #fff;
+                  }
+
+                  &:first-child {
+                      margin: 0;
+                  }
+              }
+          }
+
+          //   footer 
+          .footer {
+              border-top: 2px solid #111350;
+              padding: 10px 0;
+              text-align: center;
+              margin-top: 60px;
+
+              p {
+                  font-style: normal;
+                  font-weight: 500;
+                  font-size: 15px;
+                  line-height: 27px;
+                  text-align: center;
+                  color: #FFFFFF;
+                  margin:0;
+                  margin: 0 auto;
               }
           }
       }

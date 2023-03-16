@@ -924,6 +924,11 @@ body {
   margin-top: 40px;
 }
 
+#update {
+  background: url(../img/update-bg.png);
+  padding: 71px 0;
+  padding-bottom: 0px;
+}
 #update .update-title {
   font-style: normal;
   font-weight: 600;
@@ -973,4 +978,54 @@ body {
   flex-grow: 0;
   border: transparent;
   padding: 8px 59px;
+}
+#update .update-wrap p {
+  max-width: 624px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 auto;
+  margin-top: 23px;
+}
+#update .update-wrap .update-network {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+#update .update-wrap .update-network .icon {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #403668;
+  border-radius: 9px;
+  margin-left: 12px;
+}
+#update .update-wrap .update-network .icon i {
+  font-size: 20px;
+  color: #fff;
+}
+#update .update-wrap .update-network .icon:first-child {
+  margin: 0;
+}
+#update .update-wrap .footer {
+  border-top: 2px solid #111350;
+  padding: 10px 0;
+  text-align: center;
+  margin-top: 60px;
+}
+#update .update-wrap .footer p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
